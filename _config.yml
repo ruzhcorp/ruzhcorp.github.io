@@ -9,8 +9,8 @@ permalink:        pretty
 title:            НКРЯ
 tagline:          'A Jekyll theme'
 description:      'Русско-китайский параллельный корпус языка. '
-url:              https://kianya.github.io/
-baseurl:          /hyde/
+url:              https://kianya.github.io/hyde/
+baseurl:          /
 
 author:
   name:           'Mark Otto'
