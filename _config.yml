@@ -9,8 +9,8 @@ permalink:        pretty
 title:            НКРЯ
 tagline:          'Русско-китайский корпус языка'
 description:      'Русско-китайский параллельный корпус языка. '
-url:              https://kianya.github.io
-baseurl:          /
+url:              https://ruzhparcor.github.io
+baseurl:          https://ruzhparcor.github.io/
 
 author:
   name:           'Mark Otto'
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/ruzhparcor
