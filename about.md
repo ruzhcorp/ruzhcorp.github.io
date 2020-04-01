@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: О параллельных корпусах и о нас
 ---
 
