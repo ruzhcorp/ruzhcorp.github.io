@@ -15,7 +15,7 @@ title: О нас
   2. обладает удобной для юзера системой поиска;
   3. размечен грамматически.
 
-О том, что именно можно с ним делать, вы можете прочитать [на этой странице](https://docs.google.com/document/d/1grU6Mglob_RIVEVwU14gttaZMM4bIW7wxI8lN-Xi5vU/edit#heading=h.jxed6l1nutrn).
+О том, что именно можно с ним делать, вы можете прочитать [на этой странице](https://ruzhparcor.github.io/pages/howtouse/).
 
 ## Наша команда
 
