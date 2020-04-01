@@ -10,7 +10,7 @@ title:            НКРЯ
 tagline:          'Русско-китайский корпус языка'
 description:      'Русско-китайский параллельный корпус языка. '
 url:              https://kianya.github.io/
-baseurl:          /hyde/
+baseurl:          /
 
 author:
   name:           'Mark Otto'
