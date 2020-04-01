@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            НКРЯ
 tagline:          'Русско-китайский корпус языка'
-description:      'Русско-китайский параллельный корпус языка. '
+description:      'Русско-китайский параллельный корпус языка. \n Координатор проекта — Кирилл Семенов: kir.semenow@yandex.ru'
 url:              https://ruzhparcor.github.io
 baseurl:          https://ruzhparcor.github.io/
 
