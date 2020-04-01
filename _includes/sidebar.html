@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Главная</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Новости</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -29,9 +29,9 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Как пользоваться корпусом</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Благодарности</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <span class="sidebar-nav-item">Версия v{{ site.version }}</span>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. Все права защищены.</p>
   </div>
 </div>
