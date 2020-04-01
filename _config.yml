@@ -9,7 +9,7 @@ permalink:        pretty
 title:            НКРЯ
 tagline:          'Русско-китайский корпус языка'
 description:      'Русско-китайский параллельный корпус языка. '
-url:              https://kianya.github.io/
+url:              https://kianya.github.io
 baseurl:          /
 
 author:
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/kianya/kianya.github.io/
+  repo:           https://github.com/poole/hyde
