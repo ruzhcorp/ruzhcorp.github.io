@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Русско-китайский корпус
+title:            НКРЯ
 tagline:          'A Jekyll theme'
-description:      'Русско-китайский параллельный корпус языка. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Русско-китайский параллельный корпус языка. '
 url:              https://kianya.github.io/
 baseurl:          /hyde/
 
