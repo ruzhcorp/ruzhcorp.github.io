@@ -13,8 +13,8 @@ url:              https://ruzhparcor.github.io
 baseurl:          https://ruzhparcor.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Кирилл Семенов'
+  url:            kir.semenow@yandex.ru
 
 paginate:         5
 
