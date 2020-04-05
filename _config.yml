@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            НКРЯ
-tagline:          'Русско-китайский корпус языка'
-description:      'Русско-китайский параллельный корпус языка.'
+title:            'Русско-китайский параллельный корпус'
+tagline:          НКРЯ
+description:      ''
 url:              https://ruzhparcor.github.io
 baseurl:          https://ruzhparcor.github.io/
 
