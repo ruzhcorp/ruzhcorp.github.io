@@ -9,8 +9,8 @@ permalink:        pretty
 title:            'Русско-китайский параллельный корпус'
 tagline:          'НКРЯ'
 description:      'НКРЯ'
-url:              https://ruzhparcor.github.io
-baseurl:          https://ruzhparcor.github.io/
+url:              https://ruzhcorp.github.io
+baseurl:          https://ruzhcorp.github.io/
 
 author:
   name:           'Кирилл Семенов'
@@ -22,4 +22,4 @@ paginate:         5
 version:          Beta-0.0.1
 
 github:
-  repo:           https://github.com/ruzhparcor
+  repo:           https://github.com/ruzhcorp
