@@ -10,7 +10,8 @@ title:            'Русско-китайский параллельный ко
 tagline:          'НКРЯ'
 description:      ''
 url:              https://ruzhcorp.github.io
-baseurl:          http://ruzhcorp.github.io/
+baseurl:          https://ruzhcorp.github.io/
+imageurl:         http://ruzhcorp.github.io/
 
 author:
   name:           'Кирилл Семенов'
