@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            'Русско-китайский параллельный корпус'
+title:            'Русско-китайский параллельный корпус НКРЯ'
 tagline:          'НКРЯ'
 description:      ''
 url:              https://ruzhcorp.github.io
