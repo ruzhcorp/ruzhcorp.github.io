@@ -1,6 +1,7 @@
 ---
 layout: page
 title: О параллельных корпусах
+lang: ru
 ---
 
 
