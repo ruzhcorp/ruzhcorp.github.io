@@ -1,0 +1,150 @@
+.flags {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #6a9fb5;
+}
+
+.flags .flag-link {
+	padding: 0;
+	margin: 0;
+	width: 45px;
+	margin-left:auto; 
+	margin-bottom:0%; 
+}
+
+.flags .flag-link a img {
+	margin-bottom: 0; 
+}
+
+.not-marked-menu {
+	list-style-type: none;
+	padding: 0;
+	
+}
+
+.hidden-menu-ticker {
+		display: none;
+}
+
+.footer {
+	background-color: #6a9fb5;
+	color: #fff;
+	padding: 2rem;
+}
+
+@media (min-width: 48em) {
+  .footer {
+	margin: 0;
+    padding-left: 21rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .footer {
+	padding-right: 5rem;
+    padding-left: 23rem;
+  }
+}
+
+@media (min-width: 48em) {
+	.width-control {
+		padding: 0;
+		margin: 0;
+		max-width: 36rem;
+	}
+}
+
+.social {
+	float: right;
+	display: inline-block;
+	padding: 0;
+	padding-right: 2rem;
+}
+
+.footer .copyright {
+	width: 65%;
+	display: inline-block;
+}
+
+@media (max-width: 767px) {
+
+	/*источник стилей https://gravitsapa.info/delaem-vyiezzhayushhee-bokovoe-menyu-na-chistom-css/*/
+	
+	.hidden-menu {
+		display: block;
+		position: fixed;
+		list-style:none;
+		padding: 10px;
+		margin: 0;
+		box-sizing: border-box;
+		width: 300px;
+		max-width: 100%
+		background-color: #6a9fb5;
+		top: 0;
+		left: -300px;
+		transition: left .2s;
+		z-index: 2;
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+	.hidden-menu li a {
+		text-decoration: none; 
+		color:#fff;
+	}
+	.hidden-menu li a:hover {
+		color:#fff;
+	}
+	
+	.btn-menu {
+		color: #fff;
+		background-color: #6a9fb5;
+		padding: 2px;
+		position: fixed;
+		top: 5px;
+		left: 5px;
+		cursor: pointer;
+		transition: left .23s;
+		z-index: 3;
+		width: 20px;
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+	
+	.btn-menu span {
+		display: block;
+		height: 2px;
+		background-color: #fff;
+		margin: 5px 0 0;
+		transition: all .1s linear .23s;
+		position: relative;
+	}
+	
+	.btn-menu span.first {
+		margin-top: 0;
+	}
+	
+	.hidden-menu-ticker:checked ~ .btn-menu {
+		left: 260px;
+		background-color: #6a9fb5;
+	}
+	
+	.hidden-menu-ticker:checked ~ .hidden-menu {
+		left: 0;
+	}
+	.hidden-menu-ticker:checked ~ .btn-menu span.first {
+		-webkit-transform: rotate(45deg);
+		top: 7px;
+		background-color: #fff;
+	}
+	.hidden-menu-ticker:checked ~ .btn-menu span.second {
+		opacity: 0;
+	}
+	.hidden-menu-ticker:checked ~ .btn-menu span.third {
+		-webkit-transform: rotate(-45deg);
+		top: -7px;
+		background-color: #fff;
+	}
+}
