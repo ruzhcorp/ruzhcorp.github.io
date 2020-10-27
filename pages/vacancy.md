@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Вакансии
+lang: ru
 ---
 
 <p class="message">
