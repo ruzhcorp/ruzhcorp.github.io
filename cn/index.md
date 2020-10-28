@@ -48,4 +48,4 @@ layout: default
 - [莫斯科物理技术研究所(МФТИ)](https://mipt.ru/english/ )
 - [圣彼得堡国立大学 (СПбГУ)](https://chinese.spbu.ru/)
 
-虽然团队已有十余人参与语料库开发工作，但仍有大量问题尚需解决，我们正在寻求积极主动的参与者，如果您对我们的项目感兴趣，请关注 [职位需求](https://ruzhcorp.github.io/pages/vacancy/)，期待有识之士的加入！
+虽然团队已有十余人参与语料库开发工作，但仍有大量问题尚需解决，我们正在寻求积极主动的参与者，如果您对我们的项目感兴趣，请关注 [职位需求](https://ruzhcorp.github.io/cn/pages/3_vacancy/)，期待有识之士的加入！
