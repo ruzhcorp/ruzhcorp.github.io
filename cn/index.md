@@ -5,7 +5,7 @@ layout: default
 ## 俄语国家语料库·俄汉平行语料库
   > [俄语国家语料库](http://www.ruscorpora.ru/new/) (НКРЯ) 是最大、最优质的俄语语料库之一。该语料库包含大量子语料库。这些子语料库是语言研究具体领域（如：句法、重音等）的数据库。其中的 [平行语料库](http://www.ruscorpora.ru/new/search-para-en.html)  又分成20个俄语-外语语料库。
   
-  > 想了解更多平行语料库的信息请点击 [这里](https://ruzhcorp.github.io/pages/1_parallel/).
+  > 想了解更多平行语料库的信息请点击 [这里](https://ruzhcorp.github.io/cn/pages/1_parallel/).
 
 ### 语料库小史
 
