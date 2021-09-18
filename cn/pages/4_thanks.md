@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Благодарности (cn)
+title: 感谢
 lang: cn
 ---
 
