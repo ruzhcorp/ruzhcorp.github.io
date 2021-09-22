@@ -1,30 +1,54 @@
-{% if page.url contains '/cn/' %}
-
-	<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+<input type="checkbox" id="hmt" class="hidden-menu-ticker">
 			
-	<label class="btn-menu" for="hmt">
-		<span class="first"></span>
-		<span class="second"></span>
-		<span class="third"></span>
-	</label>
+<label class="btn-menu" for="hmt">
+	<span class="first"></span>
+	<span class="second"></span>
+	<span class="third"></span>
+</label>
 
-	<div class="sidebar hidden-menu">
-	  <div class="container sidebar-sticky">
+<div class="sidebar hidden-menu">
+	<div class="container sidebar-sticky">
 		<div class="sidebar-about dropdown-menu">
-		  <h2>
-			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+			<h2>
+				<img src="{{ site.baseurl }}public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
-			<a href="{{ site.baseurl }}cn/">
-			  {{ site.cntitle }}
-			</a>
-		  </h2>
-		  <p class="lead">{{ site.cndescription }}</p>
+				<a href="{{ site.baseurl }}{% if page.lang != "ru" %}{{ page.lang }}/{% endif %}">
+					{% if page.lang == "ru" %}
+							{{ site.title }}
+					{% endif %}
+					{% if page.lang == "en" %}
+							{{ site.entitle }}
+					{% endif %}
+					{% if page.lang == "cn" %}
+							{{ site.cntitle }}
+					{% endif %}
+				</a>
+			</h2>
+			{% if page.lang == "ru" %}
+				<p class="lead">{{ site.description }}</p>
+			{% endif %}
+			{% if page.lang == "en" %}
+				<p class="lead">{{ site.endescription }}</p>
+			{% endif %}
+			{% if page.lang == "cn" %}
+				<p class="lead">{{ site.cndescription }}</p>
+			{% endif %}
 		</div>
 		
 
 		<nav class="sidebar-nav">
 			<ul class="not-marked-menu">
-				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/cn/' %} active{% endif %}" href="{{ site.baseurl }}cn/">主页</a></li>
+			
+				{% if page.lang == "ru" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}">Главная</a></li>
+				{% endif %}
+				{% if page.lang == "en" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/en/' %} active{% endif %}" href="{{ site.baseurl }}en/">Homepage</a></li>
+				{% endif %}
+				{% if page.lang == "cn" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/cn/' %} active{% endif %}" href="{{ site.baseurl }}cn/">主页</a></li>
+				{% endif %}
+				
 
 			  {% comment %}
 				The code below dynamically generates a sidebar nav of pages with
@@ -35,88 +59,70 @@
 			  {% for node in pages_list %}
 				{% if node.title != null %}
 				  {% if node.layout == "page" %}
-					{% if node.lang == "cn" %}
+					{% if node.lang == page.lang %}
 						<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
 					{% endif %}
 				  {% endif %}
 				{% endif %}
 			  {% endfor %}
-
-			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">语料库搜索</a></li>
-			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Ruscorpora搜索</a></li>
+				
+				{% if page.lang == "ru" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Поиск в корпусе</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Поиск в корпусе (НКРЯ)</a></li>
+				{% endif %}
+				{% if page.lang == "en" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Search in Corpus</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Search in Corpus(NRC)</a></li>
+				{% endif %}
+				{% if page.lang == "cn" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">语料库搜索</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Ruscorpora搜索</a></li>
+				{% endif %}
 			</ul>
 		</nav>
 
 	  </div>
 	</div>
 
-	<div class="flags">
-		<div class="flag-link">
-			<a href= "{{ site.baseurl }}{{ page.url | remove: "/cn/" }}">
-				<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30">
-			</a>
-		</div>
-	</div>
-	
-{% else %}
-
-	<input type="checkbox" id="hmt" class="hidden-menu-ticker">
-			
-	<label class="btn-menu" for="hmt">
-		<span class="first"></span>
-		<span class="second"></span>
-		<span class="third"></span>
-	</label>
-	
-	<div class="sidebar hidden-menu">
-	  <div class="container sidebar-sticky">
-		<div class="sidebar-about dropdown-menu">
-		  <h2>
-			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
-																				 margin-right:auto; max-width: 80%">
-			<a href="{{ site.baseurl }}">
-			  {{ site.title }}
-			</a>
-		  </h2>
-		  <p class="lead">{{ site.description }}</p>
-		</div>
-		
-		<nav class="sidebar-nav">
-					
-			<ul class="not-marked-menu">
-				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}">Главная</a></li>
-
-
-			  {% comment %}
-				The code below dynamically generates a sidebar nav of pages with
-				`layout: page` in the front-matter. See readme for usage.
-			  {% endcomment %}
-			  
-			  {% assign pages_list = site.pages %}
-			  {% for node in pages_list %}
-				{% if node.title != null %}
-				  {% if node.layout == "page" %}
-					{% if node.lang == "ru" %}
-						<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+	<div class="changes">
+		<ul class="changes-menu">
+			<li class="flags">
+				<img src="{{ site.baseurl }}public/{{ page.lang }}-flag.jpg" width="45" height="30">
+				<ul class="flags-menu">
+					{% if page.lang == "ru" %}
+						<li>
+							<a href="{{ site.baseurl }}cn{{ page.url }}">
+								<img src="{{ site.baseurl }}public/cn-flag.jpg" width="45" height="30">
+							</a>
+						</li>
+						<li>
+							<a href="{{ site.baseurl }}en{{ page.url }}">
+								<img src="{{ site.baseurl }}public/en-flag.jpg" width="45" height="30">
+							</a>
+						</li>
+					{% else %}
+						{% if page.lang == "en" %}
+							<li>
+								<a href="{{ site.baseurl }}{{ page.url | remove: '/en/'}}">
+									<img src="{{ site.baseurl }}public/ru-flag.jpg" width="45" height="30">
+								</a>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}cn/{{ page.url | remove: '/en/' }}">
+									<img src="{{ site.baseurl }}public/cn-flag.jpg" width="45" height="30">
+								</a>
+							</li>
+						{% else %}
+							<li>
+								<a href="{{ site.baseurl }}{{ page.url | remove: '/cn/'}}">
+									<img src="{{ site.baseurl }}public/ru-flag.jpg" width="45" height="30">
+								</a>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}en/{{ page.url | remove: '/cn/' }}">
+									<img src="{{ site.baseurl }}public/en-flag.jpg" width="45" height="30">
+								</a>
+							</li>
+						{% endif %}
 					{% endif %}
-				  {% endif %}
-				{% endif %}
-			  {% endfor %}
-
-			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Поиск в корпусе</a></li>
-			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Поиск в корпусе (НКРЯ)</a></li>
-			</ul>
-		</nav>
-
-	  </div>
 	</div>
-
-	<div class="flags">
-		<div class="flag-link">
-			<a href="{{ site.baseurl }}cn{{ page.url }}">
-				<img src="{{ site.baseurl }}/public/cn-flag.jpg" width="45" height="30">
-			</a>
-		</div>
-	</div>
-	
-{% endif %}

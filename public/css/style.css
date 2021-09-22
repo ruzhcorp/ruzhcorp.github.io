@@ -1,21 +1,38 @@
-.flags {
+.changes li, ul {
+	margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.changes {
 	position: fixed;
 	top: 0;
-	left: 0;
 	right: 0;
-	background-color: #6a9fb5;
-}
-
-.flags .flag-link {
-	padding: 0;
-	margin: 0;
 	width: 45px;
-	margin-left:auto; 
-	margin-bottom:0%; 
+	margin-left: auto; 
+	margin-bottom: 0%; 
 }
 
-.flags .flag-link a img {
-	margin-bottom: 0; 
+.changes li.flags {
+	width: 45;
+	height: 100;
+}
+
+.changes .flags img {
+	margin-bottom: 10px;
+	border: 1px solid;
+}
+
+.changes li.flags{
+	position: relative;
+}
+
+.changes li.flags ul {
+	visibility: hidden;
+}
+
+.changes li:hover ul {
+	visibility: visible;
 }
 
 .not-marked-menu {
@@ -23,9 +40,9 @@
 	padding: 0;
 	
 }
-
+ 
 .hidden-menu-ticker {
-		display: none;
+	display: none;
 }
 
 .footer {
@@ -151,4 +168,16 @@
 
 .github-link {
 	color: #fff;	
+}
+
+.searchers-one {
+	border: 2px solid;
+	border-bottom: 0px;
+	text-align: left;
+}
+
+.searchers-two {
+	border: 2px solid;
+	border-top: 0px;
+	text-align: left;
 }

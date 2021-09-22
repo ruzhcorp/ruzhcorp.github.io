@@ -5,16 +5,41 @@
 
 		<div class="copyright">
 		
-				<p style="font-size: 15px">项目受以下单位资助：<br>俄罗斯国家研究型高等经济大学“大学生联合科研创新项目竞赛”框架下的学生学术发展中心（2020-2021年）<br>俄罗斯国家研究型高等经济大学“在校学生项目组竞赛”框架下教育创新委员会</p>  
+				<p style="font-size: 15px">项目受以下单位资助：<br>俄罗斯国家研究型高等经济大学“大学生联合科研创新项目竞赛”框架下的学生学术发展中心<br>俄罗斯国家研究型高等经济大学“在校学生项目组竞赛”框架下教育创新委员会</p>  
 			
-			<p style="font-size: 10px">&copy; <a class="github-link" href="{{ site.github.repo }}">Code on GitHub</a> 2016–{{ site.time | date: '%Y' }}</p>
+			<p style="font-size: 10px">&copy; <a class="github-link" href="{{ site.github.repo }}">GitHub</a> 2016–{{ site.time | date: '%Y' }}</p>
 			
 		</div>
 		
 		<div class="social">
 			<p>社交网络</p>
-			<a href="https://vk.com/ruzh_corp"><img src="{{ site.url }}/public/vk-logo.png" width="30" height="30"></a>
-			<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.url }}/public/fb-logo.png" width="30" height="30"></a>
+			<a href="https://vk.com/ruzh_corp"><img src="{{ site.baseurl }}/public/vk-logo.png" width="30" height="30"></a>
+			<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.baseurl }}/public/fb-logo.png" width="30" height="30"></a>
+		</div>
+		
+	</div>
+	
+</div>
+
+{% else %}
+
+{% if page.url contains '/en/' %}
+	<div class="footer">
+
+	<div class="width-control">
+
+		<div class="copyright">
+		
+				<p style="font-size: 15px">The project was implemented with the support of:<br> - The Center for Academic Development of Students within the framework of the Competition of Initiative collective Research projects of students of the National Research University "Higher School of Economics" <br> - the Commission for the Support of Educational Initiatives of the HSE Federal State University within the framework of the Competition of Project groups for students of the HSE Federal State University (the project name is "Language-specific markup of Chinese texts in the Russian-Chinese parallel corpus of the NCRR")</p>  
+			
+			<p style="font-size: 10px">&copy; <a class="github-link" href="{{ site.github.repo }}">GitHub</a> 2016–{{ site.time | date: '%Y' }}</p>
+			
+		</div>
+		
+		<div class="social">
+			<p>Social</p>
+			<a href="https://vk.com/ruzh_corp"><img src="{{ site.baseurl }}/public/vk-logo.png" width="30" height="30"></a>
+			<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.baseurl }}/public/fb-logo.png" width="30" height="30"></a>
 		</div>
 		
 	</div>
@@ -29,20 +54,21 @@
 
 			<div class="copyright">
 			
-					<p style="font-size: 13px">Проект выполнен при поддержке:<br>- Центра академического развития студентов в рамках Конкурса инициативных коллективных исследовательских проектов студентов Национального исследовательского университета «Высшая школа экономики» (2020 г. - "Русско-китайский параллельный корпус НКРЯ"; 2021 г. - "Разработка справочных онлайн-инструментов на основе ruzhcorp в целях создания интерактивной образовательной среды")<br>- Комиссии по поддержке образовательных инициатив ФГН НИУ ВШЭ в рамках Конкурса проектных групп для обучающихся НИУ ВШЭ ФГН (название проекта - «Лингвоспецифическая разметка китайских текстов в Русско-китайском параллельном корпусе НКРЯ»)</p>  
+					<p style="font-size: 13px">Проект выполнен при поддержке:<br>- Центра академического развития студентов в рамках Конкурса инициативных коллективных исследовательских проектов студентов Национального исследовательского университета «Высшая школа экономики»<br>- Комиссии по поддержке образовательных инициатив ФГН НИУ ВШЭ в рамках Конкурса проектных групп для обучающихся НИУ ВШЭ ФГН (название проекта - «Лингвоспецифическая разметка китайских текстов в Русско-китайском параллельном корпусе НКРЯ»)</p>  
 				
-					<p style="font-size: 10px">&copy; <a class="github-link" href="{{ site.github.repo }}">Code on GitHub</a> 2016–{{ site.time | date: '%Y' }}</p>
+					<p style="font-size: 10px">&copy; <a class="github-link" href="{{ site.github.repo }}">GitHub</a> 2016–{{ site.time | date: '%Y' }}</p>
 				
 			</div>
 			
 			<div class="social">
 				<p>Social</p>
-				<a href="https://vk.com/ruzh_corp"><img src="{{ site.url }}/public/vk-logo.png" width="30" height="30"></a>
-				<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.url }}/public/fb-logo.png" width="30" height="30"></a>
+				<a href="https://vk.com/ruzh_corp"><img src="{{ site.baseurl }}/public/vk-logo.png" width="30" height="30"></a>
+				<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.baseurl }}/public/fb-logo.png" width="30" height="30"></a>
 			</div>
 			
 		</div>
 		
 	</div>
 
+{% endif %}
 {% endif %}

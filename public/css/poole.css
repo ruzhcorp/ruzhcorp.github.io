@@ -331,6 +331,7 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+  min-height: 30vh;
 }
 
 /* Blog post or page title */

@@ -8,9 +8,11 @@ permalink:        pretty
 # Setup
 title:            'Русско-китайский параллельный корпус НКРЯ'
 cntitle:          '俄语国家语料库·俄汉平行语料库'
+entitle:          'Russian-Chinese parallel corpus of Russian National Corpus'
 tagline:          'НКРЯ'
 description:      ''
 cndescription:    ''
+endescription:    ''
 url:              https://ruzhcorp.github.io
 baseurl:          https://ruzhcorp.github.io/
 imageurl:         http://ruzhcorp.github.io/

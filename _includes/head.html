@@ -32,19 +32,50 @@
     </title>
   
   {% else %}
+	
+	{% if page.url contains '/en/' %}
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Language" content="en-EN" />
+
+    <meta property="og:title" content="Russian-Chinese Parallel Corpus of Russian National Corpus" />
+    <meta property="og:description" content="Join the creation of the Russian-Chinese Parallel Corpus!" />
+    <meta property="og:image" content="http://ruzhcorp.github.io/public/blue-01.jpg" />
+    <meta property="og:url" content="{{ site.baseurl }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Russian-Chinese Parallel Corpus of Russian National Corpus" />
+    <meta name="twitter:description" content="Join the creation of the Russian-Chinese Parallel Corpus!" />
+    <meta name="twitter:domain" content="{{ site.baseurl }}" />
+
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+      {% if page.layout == "page" %}
+        {{ page.title }} &middot; {{ site.entitle }}
+      {% else %}
+        {{ site.entitle }}
+      {% endif %}
+      
+    </title>
+  
+  {% else %}
    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Language" content="ru-RU" />
 
-    <meta property="og:title" content="Национальный корпус русского языка" />
-    <meta property="og:description" content="Присоединяйся к созданию русско-китайского параллельного корпуса языка" />
+    <meta property="og:title" content="Русско-Китайский Параллельный Корпус НКРЯ" />
+    <meta property="og:description" content="Присоединяйся к созданию русско-китайского параллельного корпуса НКРЯ!" />
     <meta property="og:image" content="http://ruzhcorp.github.io/public/blue-01.jpg" />
     <meta property="og:url" content="{{ site.baseurl }}" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Национальный корпус русского языка" />
-    <meta name="twitter:description" content="Присоединяйся к созданию русско-китайского параллельного корпуса языка" />
+    <meta name="twitter:title" content="Русско-Китайский Параллельный Корпус НКРЯ" />
+    <meta name="twitter:description" content="Присоединяйся к созданию русско-китайского параллельного корпуса НКРЯ!" />
     <meta name="twitter:domain" content="{{ site.baseurl }}" />
 
 
@@ -57,20 +88,22 @@
       {% else %}
         {{ site.title }}
       {% endif %}
-    </title>
+	</title>
      
   {% endif %}
+  {% endif %}
+
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/style.css">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">

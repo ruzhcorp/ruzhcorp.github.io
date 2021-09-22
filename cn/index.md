@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cn
 ---
 
 ## 俄语国家语料库·俄汉平行语料库
