@@ -12,11 +12,9 @@ lang: en
 
 Our corpus was created within the RNC project in 2016. Since 2019, it is available on two pages:
 
-Наш корпус появился внутри НКРЯ в 2016 году. С 2019 года он доступен на двух страницах:
 * [Russian National Corpus](http://www.ruscorpora.ru/new/search-para-zh.html) page, with a common RNC interface, but rare text updates;
-* [HSE corpus projects](https://linghub.ru/rnc_parallel_chinese/search) page, with regular text updates, and
+* [HSE corpus projects](https://linghub.ru/rnc_parallel_chinese/search) page, with regular text updates, and experimental interface.    
 
-In 2020, [we received](https://studscience.hse.ru/news/348490285.html) support from the HSE for the development of our project.
 In 2020 and 2021, we received support from HSE University within three projects: [firstly, for the enhancement of the corpus infrastructure](https://studscience.hse.ru/news/348490285.html), [secondly, for the linguistic annotation of the Chinese texts](https://ling.hse.ru/ruzhcorp_annotation), [thirdly, for the development of the corpus-assisted language learning programs based on Corpus](https://studscience.hse.ru/mirror/pubs/share/454835600.pdf).
 
 ### The current state of the Corpus
@@ -38,7 +36,7 @@ To date, our project is the only parallel corpus being developed in Russia that 
 
 We only know about [one analogue](http://ru corpus.cn/) of our project, which is currently being developed in Beijing. 
 
-## Our team
+## Our Team
 
 Our project involves students, teachers and researchers of the following institutes:
 - [National Research University Higher School of Economics (HSE University)](https://www.hse.ru/en/)
