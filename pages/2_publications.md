@@ -36,6 +36,9 @@ the Russian-Chinese Parallel Corpus of RNC. // 56th Linguistics Colloquium, 2020
 *  [Bonetskaya O., Dolgov D., Frolova M., Politova A., Pyrkova A.](https://github.com/ruzhcorp/ruzhcorp.github.io/blob/master/publications/conference_booklet_withBBClinks_June21.pdf) On word alignment of Russian-Chinese parallel corpora. // International Symposium PaCor 2021. pp. 18-21.
 *  [Semenov K. I., Titizian A. K., Piskunova A. O., Korotkova Y. O., Tsvetkova A. D., Volf E. A., Konovalova A. S., Kuznetsova, Y. N.](https://korpus.sk/attachments/slovko/Jazykovedny-casopis-2021-no2-SLOVKO.pdf): Linguistic annotation of translated Chinese texts: Coordinating theory, algorithms and data. Journal of Linguistics, 2021, Vol. 72. pp. 590-602.
 
+## Препринты
+* [Воейкова М.Д., Ван И.](). Инструкция по поиску оценочных конструкций в параллельном русско-китайском корпусе. 55 с.
+
 ## Публикации партнеров и спонсоров корпуса
 * [Юань Тао, Захаров В. П.](https://cyberleninka.ru/article/n/inostranizatsiya-sochetaemosti-v-konstruktsiyah-s-predlogom-dui-pri-perevode-nauchnyh-tekstov-s-russkogo-na-kitayskiy) «Иностранизация» сочетаемости в конструкциях с предлогом «对» (‘duì’) в научных текстах при переводе с русского языка на китайский //Вестник Московского университета. Сер. 22 Теория перевода. 2016 № 3. С.58-72.
 * [Юань Тао, Захаров В. П.](https://aasjournal.spbu.ru/article/view/1227/1065) Корпусно-ориентированный анализ универсалии «иностранизация» в конструкциях с предлогом «对» (‘duì’) в научных текстах, переведенных с русского языка на китайский // Вестник СПбГУ. Востоковедение и африканистика. 2017 том 9. вып. 2. С.3–11.
