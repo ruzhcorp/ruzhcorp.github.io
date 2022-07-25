@@ -37,5 +37,5 @@ Li Junying
 Sofya Polistovskaya    
 Anastasia Zybkovets, HSE University    
 Anastasia Glagoleva, HSE University    
-Daria Vishniakova, HSE University
+Daria Vishniakova, HSE University    
 Students of the Institute for Foreing Languages, Zhejiang University (supervisor - Yuan Miaoxu)    
