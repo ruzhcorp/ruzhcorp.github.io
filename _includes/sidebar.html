@@ -10,7 +10,7 @@
 	<div class="container sidebar-sticky">
 		<div class="sidebar-about dropdown-menu">
 			<h2>
-				<img src="{{ site.baseurl }}public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+				<img src="public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
 				<a href="{{ site.baseurl }}{% if page.lang != "ru" %}{{ page.lang }}/{% endif %}">
 					{% if page.lang == "ru" %}
@@ -87,40 +87,40 @@
 	<div class="changes">
 		<ul class="changes-menu">
 			<li class="flags">
-				<img src="{{ site.baseurl }}public/{{ page.lang }}-flag.jpg" width="45" height="30">
+				<img src="public/{{ page.lang }}-flag.jpg" width="45" height="30">
 				<ul class="flags-menu">
 					{% if page.lang == "ru" %}
 						<li>
 							<a href="{{ site.baseurl }}cn{{ page.url }}">
-								<img src="{{ site.baseurl }}public/cn-flag.jpg" width="45" height="30">
+								<img src="public/cn-flag.jpg" width="45" height="30">
 							</a>
 						</li>
 						<li>
 							<a href="{{ site.baseurl }}en{{ page.url }}">
-								<img src="{{ site.baseurl }}public/en-flag.jpg" width="45" height="30">
+								<img src="public/en-flag.jpg" width="45" height="30">
 							</a>
 						</li>
 					{% else %}
 						{% if page.lang == "en" %}
 							<li>
 								<a href="{{ site.baseurl }}{{ page.url | remove: '/en/'}}">
-									<img src="{{ site.baseurl }}public/ru-flag.jpg" width="45" height="30">
+									<img src="public/ru-flag.jpg" width="45" height="30">
 								</a>
 							</li>
 							<li>
 								<a href="{{ site.baseurl }}cn/{{ page.url | remove: '/en/' }}">
-									<img src="{{ site.baseurl }}public/cn-flag.jpg" width="45" height="30">
+									<img src="public/cn-flag.jpg" width="45" height="30">
 								</a>
 							</li>
 						{% else %}
 							<li>
 								<a href="{{ site.baseurl }}{{ page.url | remove: '/cn/'}}">
-									<img src="{{ site.baseurl }}public/ru-flag.jpg" width="45" height="30">
+									<img src="public/ru-flag.jpg" width="45" height="30">
 								</a>
 							</li>
 							<li>
 								<a href="{{ site.baseurl }}en/{{ page.url | remove: '/cn/' }}">
-									<img src="{{ site.baseurl }}public/en-flag.jpg" width="45" height="30">
+									<img src="public/en-flag.jpg" width="45" height="30">
 								</a>
 							</li>
 						{% endif %}
